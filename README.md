@@ -1,1 +1,1 @@
-# Conference-page-Capstone-module-1
+# Capstone-module-1
