@@ -21,6 +21,10 @@ The Tournament of Power
 
 ![Mobile About Page](./assets/Mobile%20about%20page.png)
 
+## Live Video Demo
+
+![Video link](https://www.loom.com/share/b1d32eb73d6544d4850be42257373515)
+
 ## Live Demo
 
 [The Tournament of Power](https://shuhad786.github.io/Capstone-module-1/)
