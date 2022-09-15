@@ -6,25 +6,25 @@ const guestsArr = [{
   title: 'Creator of Dragon Ball Universe',
   bio: 'Japanese manga artist and character designer at Funimation studios.',
   img: './assets/Akira-Toriyama.jpg',
-  },
-  {
+},
+{
   name: 'Toyotarou',
   title: 'Lead anime artist of Dragon Ball Universe',
   bio: 'He has drawn several Dragon Ball-related manga and is best known for illustrating Dragon Ball Super (2015 – present), which is written by series creator Akira Toriyama.',
   img: './assets/Toyotaro.jpg',
-  },
-  {
+},
+{
   name: 'Sean Schemmel',
   title: 'Voice actor of Goku dubbed',
   bio: 'American voice actor, ADR director and screenwriter',
   img: './assets/Sean-Schemmel.jpg',
-  },
-  {
+},
+{
   name: 'Christopher Sabat',
   title: 'Voice actor of Vegeta, Piccolo, Yamcha and Shenron dubbed',
   bio: 'Voice actor for English-versions of Japanese anime and video games, including a variety of Dragon Ball characters at Funimation studios',
   img: './assets/Christopher-Sabat.jpg',
-  },
+},
 ];
 
 for (let i = 0; i < guestsArr.length; i += 1) {
@@ -82,25 +82,25 @@ const MguestsArr = [{
   title: 'Creator of Dragon Ball Universe',
   bio: 'Japanese manga artist and character designer at Funimation studios.',
   img: './assets/Akira-Toriyama.jpg',
-  },
-  {
+},
+{
   name: 'Toyotarou',
   title: 'Lead anime artist of Dragon Ball Universe',
   bio: 'He has drawn several Dragon Ball-related manga and is best known for illustrating Dragon Ball Super (2015 – present), which is written by series creator Akira Toriyama.',
   img: './assets/Toyotaro.jpg',
-  },
-  {
+},
+{
   name: 'Sean Schemmel',
   title: 'Voice actor of Goku dubbed',
   bio: 'American voice actor, ADR director and screenwriter',
   img: './assets/Sean-Schemmel.jpg',
-  },
-  {
+},
+{
   name: 'Christopher Sabat',
   title: 'Voice actor of Vegeta, Piccolo, Yamcha and Shenron dubbed',
   bio: 'Voice actor for English-versions of Japanese anime and video games, including a variety of Dragon Ball characters at Funimation studios',
   img: './assets/Christopher-Sabat.jpg',
-  },
+},
 ];
 
 for (let i = 0; i < MguestsArr.length; i += 1) {
