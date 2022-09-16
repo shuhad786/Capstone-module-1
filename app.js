@@ -75,9 +75,9 @@ for (let i = 0; i < guestsArr.length; i += 1) {
   bio.classList.add('bio');
 
   guestSpeaker
-  .appendChild(container1)
-  .appendChild(card1)
-  .appendChild(bg);
+    .appendChild(container1)
+    .appendChild(card1)
+    .appendChild(bg);
 
   guestSpeaker
     .appendChild(container1)
