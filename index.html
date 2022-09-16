@@ -26,7 +26,7 @@
       referrerpolicy="no-referrer"/>
 </head>
 <body id="home">
-  <nav class="hamburger fixed-top pt-3 ps-4 d-md-block">
+  <nav class="hamburger fixed-top pt-3 ps-4">
     <span class="bar d-block"></span>
     <span class="bar mt-1 mb-1 d-block"></span>
     <span class="bar d-block"></span>
@@ -42,16 +42,11 @@
     </ul>
   </div>
 
-  <div class="container-fluid d-md-block">
-    <img class="Mimage d-md-block" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="mobile background image"/>
-    <img class="Mimage-2 d-lg-none d-md-block mt-5" src="./assets/monoheadphones.jpg" alt="mobile background image 2"/>
-  </div>
+  <div class="container-fluid">
+    <img class="image" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="background image"/>
+    <img class="image-2" src="./assets/monoheadphones.jpg" alt="background image 2"/>
 
-  <div class="container-fluid d-lg-block">
-    <img class="image d-none d-lg-block" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="background image"/>
-    <img class="image-2 d-none d-lg-block mt-5" src="./assets/monoheadphones.jpg" alt="background image 2"/>
-
-  <nav class="desktop-nav fixed-top navbar d-none d-md-block justify-content-end pe-5">
+  <nav class="desktop-nav fixed-top justify-content-end pe-5">
     <ul class="nav-list list-unstyled align-items-center d-flex flex-row justify-content-end me-5 pe-5">
       <li class="nav-list-item me-3"><img src="./assets/facebook-logo.png" alt="Facebook Logo"/></li>
       <li class="nav-list-item me-3"><img src="./assets/twitter-logo.png" alt="Twitter Logo"/></li>
@@ -61,7 +56,7 @@
     </ul>
   </nav>
 
-  <nav class="d-none d-md-flex desktop-navbar container-fluid fixed-top navbar justify-content-center navbar-white pt-3">
+  <nav class="desktop-navbar container-fluid fixed-top justify-content-center navbar-white pt-3">
     <div class="d-flex align-items-center justify-content-around me-5 pe-5">
       <a class="title-name text-start" href="#">TOURNAMENT OF POWER</a>
       <a class="text-color-link me-3 pe-3" href="./about.html">About</a>
@@ -71,121 +66,84 @@
       <a class="text-color-link box-border ms-3 me-3 p-2" href="#">DB campaign</a>
     </div>
   </nav>
-  
-  
 
   <section class="container-fluid ">
-    <h1 class="header-title d-none d-lg-block ms-5 ps-5 pt-5">"Welcome Warriors!"</h1>
-    <h2 class="header-title-2 d-none d-lg-block ms-5 ps-5">TO THE <br> TOURNAMENT <br> OF POWER <br> 2022</h2>
-    <h1 class="Mheader-title d-lg-none d-md-block">"Welcome Warriors!"</h1>
-    <h2 class="Mheader-title-2 d-lg-none d-md-block">TO <br> THE <br> TOURNAMENT <br> OF <br> POWER <br> 2022</h2>
-
-    <p class="text-1 d-none d-lg-block p-4 mt-3">
+    <h1 class="header-title">"Welcome Warriors!"</h1>
+    <h2 class="header-title-2">TO THE <br> TOURNAMENT <br> OF POWER <br> 2022</h2>
+    <p class="text-1">
       A gathering of the strongest contestants from 80 nations world-wide,<br> to compete in the first 
       Tournament Of Power hosted in the universe of DragonBall.
     </p>
-    <p class="text-2 d-lg-none d-md-block p-4 mt-3">
-      A gathering of the strongest contestants from 80 nations world-wide. To compete in the first 
-      Tournament Of Power hosted in the universe of DragonBall.
-    </p>
-    <h3 class="header-title-3 d-none d-lg-block ms-5 ps-5">2022-11-11(FRI) ~ 13(SUN)</h3>
-    <h4 class="title-location d-none d-lg-block ms-5 ps-5 pt-4">@CTICC (Cape Town International Convention Centre), GrandWest Arena, Cape Town South Africa</h4>
-    <h3 class="Mheader-title-3 d-lg-none d-md-block">2022-11-11(FRI) ~ 13(SUN)</h3>
-    <h4 class="Mtitle-location d-lg-none d-md-block pt-4">@CTICC (Cape Town International Convention Centre), GrandWest Arena, Cape Town South Africa</h4>
+    <h3 class="header-title-3">2022-11-11(FRI) ~ 13(SUN)</h3>
+    <h4 class="title-location">@CTICC (Cape Town International Convention Centre), GrandWest Arena, Cape Town South Africa</h4>
   </section>
 
-  <section id="Program" class="container-fluid d-none d-lg-block program-desktop">
-    <h3 class="title-name-2 d-none d-lg-block container-fluid text-white text-center">Main Program</h3>
-    <div class="horizontal-line d-none d-lg-block"></div>
+  <section id="Program" class="container-fluid program-desktop">
+    <h3 class="title-name-2 container-fluid text-white text-center">Main Program</h3>
+    <div class="horizontal-line"></div>
     <div class="container text-center">
-      <!-- Desktop program grid -->
-      <div class="row d-none d-lg-block mt-5 pt-3">
-        <div class="col border-box p-3">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+      <!-- program grid -->
+      <div class="program-grid">
+        <div class="program-card border-box">
+          <img class="program-image img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+          <div class="program-words">
           <h5 class="program-title mt-3">Warrior Ceremony</h5>
           <p class="program-description">
             Introduction of the warriors competing and the hosts for the event.
           </p>
         </div>
-        <div class="col border-box p-3">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+        </div>
+        <div class="program-card border-box">
+          <img class="program-image img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+          <div class="program-words">
           <h5 class="program-title mt-3">Regulations and Rules</h5>
           <p class="program-description">
             Explaining the scoreboard and rules that will follow for the event.
           </p>
         </div>
-        <div class="col border-box p-3">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+      </div>
+        <div class="program-card border-box">
+          <img class="program-image img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+          <div class="program-words">
           <h5 class="program-title mt-3">Match making and Qualifiers</h5>
           <p class="program-description">
             Match making tag-team and solo event based on online rating.
           </p>
         </div>
-        <div class="col border-box p-3">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+        </div>
+        <div class="program-card border-box">
+          <img class="program-image img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+          <div class="program-words">
           <h5 class="program-title mt-3">Guest Speakers interview</h5>
           <p class="program-description">
             Live back and forth open-conversations between guest speakers and audience.
           </p>
         </div>
+        </div>
+        <div class="program-card border-box">
+          <img class="program-image img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
+          <div class="program-words">
+          <h5 class="program-title mt-3">Raffle trivia</h5>
+          <p class="program-description">
+            Live trivia with guest speakers and audience with a chance to win one of many exculsive prizes.
+          </p>
+        </div>
+        </div>
       </div>
-        <a class="program-link mt-5">SEE THE WHOLE PROGRAM</a>
       </div>
-    
-    <h3 class="speakers-title d-none d-lg-block">Featured Speakers</h3>
-    <div class="speakers-horizontal d-none d-lg-block"></div>
+      <button class="program-btn"><a class="program-link mt-5">SEE THE WHOLE PROGRAM</a></button>
+    <h3 class="speakers-title">Featured Speakers</h3>
+    <div class="speakers-horizontal"></div>
   </section>
 
-  <section id="Program" class="mobile-program container-fluid d-lg-none d-md-block">
-    <h3 class="Mtitle-name-2 d-lg-none d-md-block container-fluid text-white text-center">Main Program</h3>
-    <div class="Mhorizontal-line d-lg-none d-md-block"></div>
-
-    <div class="container-fluid text-center">
-    <!-- Mobile program grid -->
-      <div class="col d-lg-none d-md-block mt-5 pt-3">
-        <div class="row border-box p-5">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
-          <h5 class="program-title mt-3">Warrior Ceremony</h5>
-          <p class="program-description">
-            Introduction of the warriors competing and the hosts for the event.
-          </p>
-        </div>
-        <div class="row border-box p-5">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
-          <h5 class="program-title mt-3">Regulations and Rules</h5>
-          <p class="program-description">
-            Explaining the scoreboard and rules that will follow for the event.
-          </p>
-        </div>
-        <div class="row border-box p-5">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
-          <h5 class="program-title mt-3">Match making and Qualifiers</h5>
-          <p class="program-description">
-            Match making tag-team and solo event based on online rating.
-          </p>
-        </div>
-        <div class="row border-box p-5">
-          <img class="img-fluid" src="./assets/db-logo.png" alt="tournament of power logo"/>
-          <h5 class="program-title mt-3">Guest Speakers interview</h5>
-          <p class="program-description">
-            Live back and forth open-conversations between guest speakers and audience.
-          </p>
-        </div>
-      <a class="program-link mt-5">SEE THE WHOLE PROGRAM</a>
-    </div>
-    <h3 class="Mspeakers-title d-lg-none d-md-block">Featured Speakers</h3>
-    <div class="Mspeakers-horizontal d-lg-none d-md-block"></div>
+  <section id="guest-speaker" class="desktop-grid">
   </section>
-
-  <section id="guest-speaker" class="desktop-grid"></section>
-  <section id="Mguest-speaker" class="container-fluid d-md-block bg-light mobile-grid"></section>
+  <button class="speaker-btn">MORE <img src="./assets/Downarrow.png" alt="downward arrow"/></button>
 
   <section id="Partners" class="container-fluid pb-2 pt-3 partners">
-    <h3 class="partner-title d-none d-lg-block text-white text-center">Partners</h3>
-    <div class="d-none d-lg-block partners-horizontal"></div>
-    <h3 class="Mpartner-title d-lg-none d-md-block text-white text-center pt-3">Partners</h3>
-    <div class="d-md-block d-lg-none Mpartners-horizontal"></div>
-    <ul class="d-flex justify-content-center mt-5 list-unstyled">
+    <h3 class="partner-title text-center">Partners</h3>
+    <div class="partners-horizontal"></div>
+    <ul class="partner-list d-flex justify-content-center mt-5 list-unstyled">
       <li class="me-5"><img class="img-fluid image-icon" src="./assets/android-google-play.png" alt="partner logo"/></li>
       <li class="me-5 ms-5"><img class="img-fluid image-icon" src="./assets/playstation-icon.png" alt="partner logo"/></li>
       <li class="ms-5"><img class="img-fluid image-icon" src="./assets/samsung-logo.png" alt="partner logo"/></li>

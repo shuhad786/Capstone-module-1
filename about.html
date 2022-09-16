@@ -29,7 +29,7 @@
 
 <body>
     <!-- mobile nav -->
-    <nav class="hamburger fixed-top pt-3 ps-4 d-md-block">
+    <nav class="hamburger fixed-top pt-3 ps-4">
         <span class="bar d-block"></span>
         <span class="bar mt-1 mb-1 d-block"></span>
         <span class="bar d-block"></span>
@@ -43,13 +43,9 @@
     </ul>
   </div>
 
-  <div class="container-fluid d-lg-none d-md-block">
-    <img class="Mobile-about-image" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="mobile background image"/>
-  </div>
-
-    <img class="About-image-background d-none d-lg-block" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="background image"/>
+    <img class="About-image-background" src="./assets/vecteezy_low-poly-abstract-design-background_6954145.jpg" alt="background image"/>
   <!-- desktop-nav -->
-  <nav class="desktop-nav fixed-top navbar d-none d-lg-block justify-content-end pe-5">
+  <nav class="desktop-nav fixed-top justify-content-end pe-5">
     <ul class="nav-list list-unstyled align-items-center d-flex flex-row justify-content-end me-5 pe-5">
       <li class="nav-list-item me-3"><img src="./assets/facebook-logo.png" alt="Facebook Logo"/></li>
       <li class="nav-list-item me-3"><img src="./assets/twitter-logo.png" alt="Twitter Logo"/></li>
@@ -59,24 +55,22 @@
     </ul>
   </nav>
 
-  <nav class="d-none d-lg-flex about-desktop-navbar container-fluid fixed-top navbar justify-content-end navbar-white pt-3">
+  <nav class="desktop-navbar container-fluid fixed-top justify-content-end navbar-white pt-3">
     <div class="d-flex align-items-center justify-content-around me-5 pe-5">
       <a class="text-color me-3 pe-3" href="index.html">Home</a>
       <a class="text-color me-3 pe-3" href="#info">Information</a>
     </div>
   </nav>
 
-  <section id="info" class="about-page">
-      <nav class="d-none d-lg-flex justify-content-end me-3">
+  <section id="info" class="about-page mb-5">
+      <nav class="about-links">
           <img src="./assets/home.svg" alt="home icon"> <span> > </span>
            start <span> > </span>end
       </nav>
       <div>
-          <h1 class="d-none d-lg-block header-title-2 text-center">Tournament of Power <br> 2022
-          </h1>
-          <h1 class="Mheader-title-2 d-lg-none d-md-block text-center">Tournament <br> of <br> Power <br> 2022
-          </h1>
-          <div class="text-3 d-none d-lg-block p-5 text-center">
+          <h2 class="about-header-title text-center">"Welcome Spectators!"</h2>
+          <h1 class="about-header-title-2 text-center">Tournament of Power <br> 2022</h1>
+          <div class="text-3 p-5 text-center">
               The Tournament of Power
               brings together
               the universes strongest fighters, to compete for the grand prize and the title of Strongest in the Universe.
@@ -86,62 +80,40 @@
               We will have an open quiz raffle to anyone visitors and contestants to win prizes, galleries, skins, characters, subscriptions and more.
               This year will be the mark when we will have our champion.
           </div>
-
-          <div class="text-2 d-lg-none d-md-block text-center">
-            The Tournament of Power
-            brings together
-            the universes strongest fighters, to compete for the grand prize and the title of Strongest in the Universe.
-            This year, we are hosting the event for the first time and we hope to meet all your expectations.
-            So if you're ready and have what it takes in the battles ahead to challenge those who has claimed undefeated ranks,
-            masteries then look no further.
-            We will have an open quiz raffle to anyone visitors and contestants to win prizes, galleries, skins, characters, subscriptions and more.
-            This year will be the mark when we will have our champion.
-        </div>
-          <div class="title-location mt-5 text-center">
-              <h6>Please contact us per Email for any further questions about The Tournament of Power 2022!</h6> <br>
-              <h4 class="mb-5"><a href="#" class="email-link">
-                  dbevents2022@ccsouthafrica.org
-              </a></h4>
+          <div class="text-center">
+              <h6 class="title-location">Please contact us per Email for any further questions about The Tournament of Power 2022!</h6> <br>
+              <h4 class="email"><a href="#" class="email-link">
+                  dbevents2022@ccsouthafrica.org</a></h4>
             </div>
-            <div class="Mabout-horizontal d-md-block d-lg-none"></div>
-            <div class="horizontal-line d-none d-lg-block"></div>
+            <div class="about-horizontal-line"></div>
       </div>
   </section>
 
-  <section class="d-none d-lg-block text-center">
-    <h3 class="text-center header-title">THE TOURNAMENT OF POWER</h3>
+  <section>
+    <h3 class="text-center about-header-title-3">THE TOURNAMENT OF POWER</h3>
     <img class="img-fluid" src="./assets/wp3700130-dragon-ball-universe-fighters-wallpapers.jpg" alt="Tournament of Power wallpaper">
     <div>
       <h3 class="email-link text-center mt-3">Grand Tournament!</h3>
-      <p class="title-location text-center mt-3 mb-3">
+      <p class="title-location text-center">
         The King of All "Zeno", the god of king of the universe! awaits you. <br>
         Warriors, prepare for battle. A celebration of contest The Grand Tournament!
       </p>
     </div>
   </section>
 
-  <section class="mobile-end d-md-block d-lg-none text-center">
-    <h3 class="text-center Mheader-title">THE TOURNAMENT OF POWER</h3>
-    <img class="img-fluid" src="./assets/wp3700130-dragon-ball-universe-fighters-wallpapers.jpg" alt="Tournament of Power wallpaper">
-    <div>
-      <h3 class="email-link text-center mt-3">Grand Tournament!</h3>
-      <p class="title-location text-center mt-3 mb-3">
-        The King of All "Zeno", the god of king of the universe! awaits you. <br>
-        Warriors, prepare for battle. A celebration of contest The Grand Tournament!
-      </p>
-    </div>
+  <section id="Partners" class="container-fluid pb-2 pt-3 about-partners">
+    <h3 class="partner-title text-center">Partners</h3>
+    <div class="partners-horizontal"></div>
+    <ul class="partner-list d-flex justify-content-center mt-5 list-unstyled">
+      <li class="me-5"><img class="img-fluid image-icon" src="./assets/android-google-play.png" alt="partner logo"/></li>
+      <li class="me-5 ms-5"><img class="img-fluid image-icon" src="./assets/playstation-icon.png" alt="partner logo"/></li>
+      <li class="ms-5"><img class="img-fluid image-icon" src="./assets/samsung-logo.png" alt="partner logo"/></li>
+    </ul>
   </section>
 
-  <footer class="about-foot-style d-none d-lg-flex justify-content-evenly px-5 mt-5">
+  <footer class="about-foot-style justify-content-evenly">
     <h5><img class="img-fluid me-1" src="./assets/icons8-trademark-24.png" alt="trade mark icon"/>Dragon Ball Universe</h5>
-    <p><img class="img-fluid" src="./assets/icons8-registered-trademark-30.png" alt="registered icon"/>Rights reserved for all content and merchandised.</p>
-  </footer>
-
-  <footer class="about-foot-style d-lg-none d-md-block justify-content-evenly px-5 mt-5">
-    <div class="d-flex justify-content-evenly">
-    <h9><img class="img-fluid me-1" src="./assets/icons8-trademark-24.png" alt="trade mark icon"/>Dragon <br>Ball Universe</h9>
-    <h9><img class="img-fluid" src="./assets/icons8-registered-trademark-30.png" alt="registered icon"/>Rights reserved <br> for all content and  <br>merchandised.</h9>
-    </div>
+    <h5><img class="img-fluid" src="./assets/icons8-registered-trademark-30.png" alt="registered icon"/>Rights reserved for all content and merchandised.</h5>
   </footer>
   <script src="./menu.js"></script>
 </body>
