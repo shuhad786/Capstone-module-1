@@ -453,7 +453,7 @@ html body {
     z-index: -1;
     top: 1000px;
     width: 100%;
-    height: 530px;
+    height: 450px;
   }
 
   .About-image-background {
@@ -568,6 +568,7 @@ html body {
     justify-content: center;
     width: max-content;
     margin: 0 auto;
+    padding: 15px;
   }
 
   .desktop-grid {
@@ -597,22 +598,20 @@ html body {
   }
 
   .speakers-title {
-    position: relative;
     color: #272a31;
     font-family: 'Lato', sans-serif;
-    left: 21%;
     margin-top: 140px;
-    width: fit-content;
+    width: max-content;
+    margin: 0 auto;
   }
 
   .speakers-horizontal {
-    position: relative;
     background-color: #ec5242;
     width: 100px;
     height: 5px;
     border-radius: 5px;
-    left: 6.5%;
     opacity: 0.5;
+    margin: 0 auto;
   }
 
   .guest-image {
